@@ -59,7 +59,7 @@ Multiple messagess will be issued sequentially. They can be broken up with <STOP
 * *random, shuffle and multi cannot be combined, only one of these can be active at one time
 
 
-Besides messages, commands can be used to tell the script to behave a certain way. Angle brackets are used to distiguish them from regular messages.
+In addition, commands can be used to tell the script to behave a certain way. Angle brackets are used to distiguish them from regular messages.
 
 `<DISABLE>`
 
