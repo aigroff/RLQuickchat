@@ -19,7 +19,7 @@ How many ticks while not using a trigger before the chat disables
 How many ticks a trigger must be held to enable chat
 * **-disableFor:*ticks***
 
-After using the <DISABLE> chat command, how many ticks before chat can be enabled again
+After using the `<DISABLE>` chat command, how many ticks before chat can be enabled again
 * **-norumble**
   
 Disables rumble when chat is enabled or disabled
@@ -70,19 +70,19 @@ This is yet another message
 
 In addition, commands can be used to tell the script to behave a certain way. Angle brackets are used to distiguish them from regular messages.
 
-`<DISABLE>`
+* `<DISABLE>`
 
 disables the chat. It cannot be re-enabled for a period of time specified by `-disableFor`.  
 
-`<SLEEP:time_in_milliseconds>` 
+* `<SLEEP:time_in_milliseconds>` 
 
 When using multi mode chat, this tells the chat to wait before continuing to the next message  
 
-`<MULTI_SLEEP:time_in_milliseconds> `
+* `<MULTI_SLEEP:time_in_milliseconds> `
 
 When using the multi mode chat, this tells the chat how long to wait after all subsequent messages. Resets after a `<STOP>`.
 
-`<STOP> `
+* `<STOP> `
 
 When using the multi mode chat, this tells the script to stop sending new messages. When the command is issued again, it will continue from the message after this command.
 
